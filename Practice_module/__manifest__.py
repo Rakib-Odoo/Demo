@@ -8,6 +8,7 @@
     'depends' : [],
     'data' : [
         'securtiy/ir.model.access.csv',
+        'views/menu.xml',
     ],
     'application': True,
     'installable': True,
