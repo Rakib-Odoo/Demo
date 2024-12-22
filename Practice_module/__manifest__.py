@@ -6,7 +6,9 @@
     'author' : 'Rakib',
     'sequence':1,
     'depends' : [],
-    'data' : [],
+    'data' : [
+        'securtiy/ir.model.access.csv',
+    ],
     'application': True,
     'installable': True,
 }
