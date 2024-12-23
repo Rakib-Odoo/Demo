@@ -10,4 +10,10 @@
               parent="hospital_root_menu"
               sequence="0"/>
 
+
+    <menuitem id="menu_appointment_master"
+              name="Appointments Details"
+              parent="hospital_root_menu"
+              sequence="0"/>
+
 </odoo>
