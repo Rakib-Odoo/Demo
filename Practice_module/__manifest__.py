@@ -11,6 +11,7 @@
         'views/menu.xml',
         'views/patient.xml',
         'views/appointment.xml',
+        'views/patient_tag.xml',
     ],
     'application': True,
     'installable': True,
