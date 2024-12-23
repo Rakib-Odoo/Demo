@@ -13,6 +13,8 @@ class HospitalPatient(models.Model):
                                ], string='Gender')
     date_of_birth = fields.Date(string='Date of Birth')
     image = fields.Image(string='image')
+    appointment_id = fields.Many2one('hospital.appointment', string='Appointments')
+    tag_id = fields.Many2many('patient.tag', string='Tags')
 
 
     @api.onchange('date_of_birth')
